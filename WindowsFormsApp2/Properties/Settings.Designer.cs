@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Entrega_4.Properties
+namespace WindowsFormsApp2.Properties
 {
 
 

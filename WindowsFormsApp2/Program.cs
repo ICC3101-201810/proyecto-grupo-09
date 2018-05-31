@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Entrega_4
+namespace WindowsFormsApp2
 {
     static class Program
     {

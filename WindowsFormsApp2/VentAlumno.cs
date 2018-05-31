@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Entrega_4
+namespace WindowsFormsApp2
 {
-    public partial class Form1 : Form
+    public partial class VentAlumno : Form
     {
-        public Form1()
+        public VentAlumno()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            hola como estay
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
