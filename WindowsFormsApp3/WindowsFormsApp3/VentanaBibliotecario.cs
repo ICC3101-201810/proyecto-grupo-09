@@ -39,6 +39,13 @@ namespace WindowsFormsApp3
                 CambioEstado camb = new CambioEstado();
                 camb.Show();
             }
+            if (txtcom.Text == "Aceptar reserva")
+            {
+                this.Hide();
+
+                AceptarReserva acept = new AceptarReserva();
+                acept.Show();
+            }
         }
     }
 }

@@ -19,10 +19,14 @@ namespace WindowsFormsApp3
 
         private void botaceptar_Click(object sender, EventArgs e)
         {
-            if (txtcom.Text == "")
+            if (txtcom.Text == "Hacer reserva")
             {
+                this.Hide();
 
+                ReservaAlumno reser = new ReservaAlumno();
+                reser.Show();
             }
+
         }
 
         private void botvolver_Click(object sender, EventArgs e)

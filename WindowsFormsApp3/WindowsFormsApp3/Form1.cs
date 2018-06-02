@@ -19,31 +19,10 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //aca se ve si es que el usuario ya ha sido ingresado o no
-            //tambien se tiene que crear una ventana para que pregunte como se quiere agregar el usuario (con un combobox)
-           
-            /*
-            if ( && txtcont.Text=!"")
-            {
-                MessageBox.Show("Ha sido ingresado exitosamente");
-            }
-            */
-            if (txtid.Text == "" || txtcont.Text == "")
+            this.Hide();
 
-            {
-                MessageBox.Show("Ingrese usuario y contraseña para registrarse");
-                txtcont.Text = "";
-                txtid.Text = "";
-                txtid.Focus();
-            }
-            /*
-            else ()
-            {
-                MessageBox.Show("El usuario ya ha sido ingresado");
-            }
-            */
-            
-
+            AgregarUsuario ventan = new AgregarUsuario();
+            ventan.Show();       
         }
 
         private void button2_Click_1(object sender, EventArgs e)
